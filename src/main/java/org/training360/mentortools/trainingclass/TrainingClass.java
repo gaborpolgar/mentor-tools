@@ -2,18 +2,15 @@ package org.training360.mentortools.trainingclass;
 
 import lombok.*;
 
-import javax.annotation.processing.Generated;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
+//@Table(name =  "traingingclasses")
 public class TrainingClass {
 
     @Id
