@@ -23,6 +23,9 @@ public class TrainingClass {
 
     private LocalDate end_date;
 
-    public TrainingClass(String title) {
+    public TrainingClass(String title, LocalDate start_date, LocalDate end_date) {
+        this.title = title;
+        this.start_date = start_date;
+        this.end_date = end_date;
     }
 }

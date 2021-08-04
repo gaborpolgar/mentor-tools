@@ -15,7 +15,7 @@ public class TrainingClassService {
     private TrainingClassRepository repository;
 
     public TrainingClassDTO createTrainingClass(CreateTrainingClassCommand command) {
-        TrainingClass trainingClass = new TrainingClass(command.getTitle());
+        TrainingClass trainingClass = new TrainingClass(command.getTitle(), command.getStart_date(), command.getEnd_date());
         repository.save(trainingClass);
         return modelMapper.map(trainingClass, TrainingClassDTO.class);
     }

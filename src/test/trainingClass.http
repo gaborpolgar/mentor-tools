@@ -9,5 +9,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "title": "azénévfolyamom"
+  "title": "azénévfolyamom",
+  "start_date": "20201101",
+  "end_date": "20210501"
 }
