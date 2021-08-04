@@ -1,14 +1,11 @@
-package org.training360.mentortools.trainingclass;
+package mentortools;
 
-import org.modelmapper.ModelMapper;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/trainingclass")
+@RequestMapping("/mentortools")
 public class TrainingClassController {
 
     private TrainingClassService service;
@@ -17,13 +14,12 @@ public class TrainingClassController {
         this.service = service;
     }
 
-    @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
+    @PostMapping("/trainingclass")
     public TrainingClassDTO createTrainingClass(@RequestBody CreateTrainingClassCommand command) {
         return service.createTrainingClass(command);
     }
 
-    @GetMapping
+    @GetMapping("/trainingclass")
     public List<TrainingClassDTO> getTrainingClasses(){
         return service.getTrainingClasses();
     }

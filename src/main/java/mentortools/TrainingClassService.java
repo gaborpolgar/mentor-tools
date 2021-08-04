@@ -1,13 +1,13 @@
-package org.training360.mentortools.trainingclass;
+package mentortools;
 
+import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-
+@AllArgsConstructor
 @Service
 public class TrainingClassService {
 

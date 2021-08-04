@@ -1,4 +1,4 @@
-package org.training360.mentortools.trainingclass;
+package mentortools;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

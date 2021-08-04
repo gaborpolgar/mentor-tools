@@ -1,4 +1,4 @@
-package org.training360.mentortools.trainingclass;
+package mentortools;
 
 import lombok.*;
 
@@ -10,7 +10,7 @@ import java.util.List;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-//@Table(name =  "traingingclasses")
+@Table(name =  "trainingclasses")
 public class TrainingClass {
 
     @Id

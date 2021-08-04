@@ -1,4 +1,4 @@
-package org.training360.mentortools;
+package mentortools;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-DROP TABLE if EXISTS trainingclass;
+DROP TABLE if EXISTS trainingclasses;
 create table trainingclasses (id bigint auto_increment primary key,
 title VARCHAR (255),
 start_time DATE,

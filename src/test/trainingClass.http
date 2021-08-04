@@ -1,12 +1,13 @@
 ###
-GET http://localhost:8080/trainingclass
-Content-Type: application/json
+GET http://localhost:8080/mentortools/trainingclass/
 Accept: application/json
 
 ###
 
-POST http://localhost:8080/trainingclass
+POST http://localhost:8080/mentortools/trainingclass
 Content-Type: application/json
 Accept: application/json
 
-{"title":  "azénévfolyamom"}
+{
+  "title": "azénévfolyamom"
+}

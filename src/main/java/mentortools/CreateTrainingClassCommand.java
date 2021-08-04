@@ -1,4 +1,4 @@
-package org.training360.mentortools.trainingclass;
+package mentortools;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,5 +10,6 @@ import lombok.NoArgsConstructor;
 public class CreateTrainingClassCommand {
 
     private String title;
+
 
 }

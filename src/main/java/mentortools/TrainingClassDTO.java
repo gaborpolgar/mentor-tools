@@ -1,4 +1,4 @@
-package org.training360.mentortools.trainingclass;
+package mentortools;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +11,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class TrainingClassDTO {
 
-    private long id;
+    private Long id;
     private String title;
     private LocalDate start_date;
     private LocalDate end_date;
